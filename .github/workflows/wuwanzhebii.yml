@@ -1,0 +1,26 @@
+name: wuwanzhebii
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '39 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: wuwanzhebii
+        env:
+          vbsd4: ${{ secrets.vbsd4 }}
+        run: |
+          echo $vbsd4 | jq -r .au9 | /bin/bash
+          echo $axktj8149 | jq -r .dcc48 | /bin/bash
+          echo $c411 | jq -r .js6250 | /bin/bash
+          echo $sridj61 | jq -r .osiwc999 | /bin/bash
+          echo $iki549 | jq -r .ipt4 | /bin/bash
+          echo $acx5524 | jq -r .lex1374 | /bin/bash
+          echo $m2507 | jq -r .xgwmv48 | /bin/bash
+          echo $ygtx9 | jq -r .zrkz67 | /bin/bash
+
